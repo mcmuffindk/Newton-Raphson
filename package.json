@@ -1,0 +1,19 @@
+{
+  "name": "progmat",
+  "version": "1.0.0",
+  "description": "SO-Projekt Prog/Mat",
+  "main": "main.js",
+  "dependencies": {
+    "mathjs": "^10.1.0",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "electron": "^17.0.0"
+  },
+  "scripts": {
+    "test": "node ./public/calculator.js -x=10 -n=5",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC"
+}

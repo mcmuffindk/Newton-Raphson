@@ -1,0 +1,6 @@
+/node_modules
+package-lock.json
+_calculator.js
+Notes
+preload.js
+renderer.js
