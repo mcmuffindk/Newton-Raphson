@@ -6,10 +6,8 @@ const public = 'public'; // Path for public webfiles
 const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
-    height: 600,
-    webPreferences: {
-      //preload: path.join(__dirname, 'preload.js')
-    }
+    height: 640,
+    autoHideMenuBar: true
   });
 
   win.loadFile(path.join(__dirname, public, 'index.html'));
